@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210, 233, 165);
+}
+/*Home page starts here*/
+/*Navigation bar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 10px 15px;
+    position: relative;
+    width: 100%;   
+}
+.navbar img{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar-links li{
+    display: flex;
+    align-items: center;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+    color: red; 
+}
+.navbar .navbar-links a:active {
+   color: rgb(35, 35, 187);
+}/*Navigation bar ends*/
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*Sign up form start here*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.grid-box {
+    background-color: rgb(240, 221, 221);
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.grid-box img {
+    width: 200px;
+    max-width: 400px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}/*Sign up form ends here*/
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.grid-box1{
+    background-color: rgb(149, 250, 149);
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+/* Footer Styles */
+footer {
+    background-color: #343a40;  /* Dark background */
+    color: #ffffff;             /* White text */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
+
+footer a {
+    color: #f8f9fa;             /* Light gray links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #ffc107;             /* Yellow highlight on hover */
+    text-decoration: underline;
+}
+
+/* Sticky Footer (optional) */
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*About page style*/
+.container-about {
+   padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 50;
+    margin-bottom: 0%;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.container-about .about-carda{
+    padding: 5px;
+    width: 100%;
+    margin-left: 50px;
+  
+    
+}
+.container-about img{
+    height:300px;
+    width: 300px;
+    
+}
+h2 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+button:hover {
+    background-color: #218838;
+}
+.contact{
+    text-align: center;
+    padding-top: 5px;
+}
+.contact a{
+    margin-top: 5px;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Service Card */
+.service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h2 {
+    color: #6c5ce7;
+}
+

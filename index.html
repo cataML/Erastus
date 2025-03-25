@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erastus Care & Counseling</title>
+    <link rel="stylesheet" href="css/correction.css">
+   
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="images/Gabmerc Logo.png" alt="GABMERC">
+            <button class="menu-toggle">&#9776;</button>
+            <ul class="navbar-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul> 
+           
+        </nav> 
+    </header>
+<h1>Erastus Care & Counseling</h1>
+<div class="grid-container">
+    <div class="grid-box">
+        <h2>Compassionate Counseling for a Happier, Healthier You.</h2>
+        <p>Providing a safe and supportive space for healing, growth, and self-discovery. 
+            Together, we’ll explore your challenges and find the path to a happier, healthier life.
+        </p>
+        <button>Book a session now</button>
+    </div>
+    <div class="grid-box11">
+        <div>
+            <form action="">
+                <h4 class="head">Sign up here to be part of our journey</h4>
+                <div class="form">
+                    <label for="name">First Name:</label>
+                    <input type="text" placeholder="Enter your first name" class="input">
+                </div>
+                <div class="form">
+                    <label for="name">Last Name:</label>
+                    <input type="text" placeholder="Enter your last name" class="input">
+                </div>
+                <div class="form">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter your email" class="input">
+                </div>
+                <div class="form">
+                    <label for="telephone">Telephone:</label>
+                    <input type="int" placeholder="Enter your tel number" class="input">
+                </div>
+                <div class="form">
+                    <label for="pass">Password:</label>
+                    <input type="password" placeholder="Enter your password" class="input">
+                </div>
+                <div class="form">
+                    <label for="pass">Confirm Password:</label>
+                    <input type="password" placeholder="Confirm your password" class="input"> 
+                </div>
+               <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="grid-container1">
+    <div class="grid-box1">
+        <p>Hey there! I’m Erastus Ivelia Matekwa, and I’m so glad you’re here. Life can be overwhelming at 
+            times, and you don’t have to go through it alone. Whether you’re dealing with stress, anxiety, 
+            relationship struggles, or just feeling stuck, I’m here to help you navigate it all with compassion 
+            and understanding.</p>
+        <p>I believe that therapy should feel like a conversation with someone who truly listens 
+            and cares. My approach is warm, down-to-earth, and tailored to your unique needs. 
+            Together, we’ll create a safe space where you can open up, gain new perspectives, 
+            and build the tools to feel more confident and at peace.</p>
+    </div>
+    <div>
+        <div>
+            <h3> How I Can Help:</h3>
+        <p>Everyone’s journey is different, and I’m here to support you with personalized counseling that fits your
+             needs. Whether you're looking for a space to talk, tools to manage anxiety, or guidance through life’s 
+             challenges, I’m here to help.</p>
+        </div>
+        <div>
+            <br>
+            <h3>My Services</h3>
+            <ul>
+                <li>Individual Therapy</li>
+                <li>Anxiety & Stress Management</li>
+                <li>Relationship & Couples Counseling</li>
+                <li>Grief & Life Transitions Support</li>
+                <li>Self-Esteem & Personal Growth</li>
+            </ul>
+        </div>
+    </div>
+    <button>Book a Session now</button>
+
+</div>
+<footer>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2005 Erastus Care & Counseling. All rights reserved.</p>
+            
+            <p>
+                <strong>Phone:</strong> <a href="tel:+25411897242" class="text-white">+254 711 897 242</a> |
+                <strong>Email:</strong> <a href="mailto:erastusivelia@gmail.com" class="text-white">erastusivelia@gmail.com</a>
+            </p>
+    
+            <p>
+                <a href="{% url 'contact_page' %}" class="text-white">Contact Us</a> |
+                <a href="{% url 'book_session' %}" class="text-white">Book a Session</a> |
+                <a href="#" class="text-white">Privacy Policy</a>
+            </p>
+    
+            <p>
+                <a href="https://facebook.com/yourpage" class="text-white">Facebook</a> |
+                <a href="https://twitter.com/yourpage" class="text-white">Twitter</a> |
+                <a href="https://instagram.com/yourpage" class="text-white">Instagram</a>
+            </p>
+        </div>
+    </footer>
+   
+</footer>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navbarLinks = document.querySelector(".navbar-links");
+
+    menuToggle.addEventListener("click", function () {
+        navbarLinks.classList.toggle("active");
+    });
+});
+
+
+</script>
+
+
+
+</body>
+</html>
